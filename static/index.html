@@ -5,7 +5,8 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/introHCI.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
@@ -18,13 +19,21 @@
 </head>
 
 <body>
-	<div>
+	<div class="container">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+
+		<div class="jumbotron">
+			<h1>Jinghan Cao</h1>
+			<p>Human-computer Interaction &middot; UI/UX Deisgn &middot; Blogger</p>
+			<p>Hi I'm Jinghan, I'm currently an undergraduate student studying Cognitive Science at UC San Diego</p>
 		</div>
+
+		<nav style="text-align: center; font-size: 20px;"  >
+				<a href="#"> Projects </a>&emsp;
+				<a href="#"> About </a>&emsp;
+				<a href="#"> Contact </a>&emsp;
+		</nav>
 
 
 		<h4>Projects</h4>
@@ -32,53 +41,57 @@
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		<div class="project" id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
+			<a href="project.html" class="thumbnail">
+				<img src="images/hotwire.jpeg" alt="hotwire image" class="img">
+				<p>Hotwire.com  Redesign</p>
 			</a>
 		</div>
 		<div class="project" id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
+			<a href="project.html" class="thumbnail">
+				<img src="images/canvas.jpeg" alt="canvas image" class="img">
+				<p>Canvas Student App Redesign</p>
 			</a>
 		</div>
 		<div class="project" id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Prototyping</p>
 			</a>
 		</div>
 		<div class="project" id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Heuristic Evaluation</p>
 			</a>
 		</div>
 		<div class="project" id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Visualization</p>
 			</a>
 		</div>
 		<div class="project" id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Social design</p>
 			</a>
 		</div>
 		<div class="project" id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Gestural interaction</p>
 			</a>
 		</div>
 		<div class="project" id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
+			<a href="project.html" class="thumbnail">
+				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image" class="img">
 				<p>Design tools</p>
 			</a>
 		</div>
 	</div>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>

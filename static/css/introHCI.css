@@ -1,3 +1,28 @@
+
+/*applies to anything of class "project"*/
+/*
+.project{
+     margain-left: 20px;
+     background-color: #deebf7;
+     padding: 20px;
+     width: 525px;
+}
+*/
+
+/*applies to all paragraph elements within a "project" div*/
+div.project p{
+     text-align: center;
+}
+
+
+/*applies to all elements that have both classes"project" and "active"*/
+.project.active{
+     color: orange;
+}
+
+
+
+
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
