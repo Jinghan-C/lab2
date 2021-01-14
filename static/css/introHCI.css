@@ -1,4 +1,6 @@
 
+
+
 /*applies to anything of class "project"*/
 /*
 .project{
@@ -6,8 +8,9 @@
      background-color: #deebf7;
      padding: 20px;
      width: 525px;
-}
 */
+
+
 
 /*applies to all paragraph elements within a "project" div*/
 div.project p{
